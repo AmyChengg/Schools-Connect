@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18ADA4CF24E3392900D9F59E /* School Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "School Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18ADA4CF24E3392900D9F59E /* Schools Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Schools Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ADA4D224E3392900D9F59E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18ADA4D424E3392900D9F59E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18ADA4D624E3392900D9F59E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		18ADA4D024E3392900D9F59E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18ADA4CF24E3392900D9F59E /* School Connect.app */,
+				18ADA4CF24E3392900D9F59E /* Schools Connect.app */,
 				18ADA4E824E3392D00D9F59E /* School ConnectTests.xctest */,
 				18ADA4F324E3392D00D9F59E /* School ConnectUITests.xctest */,
 			);
@@ -148,7 +148,7 @@
 			);
 			name = "School Connect";
 			productName = "School Connect";
-			productReference = 18ADA4CF24E3392900D9F59E /* School Connect.app */;
+			productReference = 18ADA4CF24E3392900D9F59E /* Schools Connect.app */;
 			productType = "com.apple.product-type.application";
 		};
 		18ADA4E724E3392D00D9F59E /* School ConnectTests */ = {
@@ -445,7 +445,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kwk.School-Connect";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Schools Connect";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,7 +462,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kwk.School-Connect";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Schools Connect";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
