@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -25,10 +25,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuz-wQ-bqu">
-                                <rect key="frame" x="192" y="808" width="31" height="44"/>
+                                <rect key="frame" x="177" y="803" width="61" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="Create Post" image="pencil" catalog="system"/>
+                                <state key="normal" title="Create Post" image="create post"/>
                                 <connections>
                                     <segue destination="Ml9-19-M4q" kind="show" id="QpR-C5-z54"/>
                                 </connections>
@@ -39,29 +39,21 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ct3-Ld-lCO">
-                                <rect key="frame" x="261" y="819" width="45" height="22"/>
+                                <rect key="frame" x="261" y="802" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Messages" image="ellipses.bubble" catalog="system"/>
+                                <state key="normal" title="Messages" image="dm"/>
                                 <connections>
                                     <segue destination="yYN-j9-N7I" kind="show" id="cGL-pZ-P8i"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXd-mm-dHe">
-                                <rect key="frame" x="99" y="802" width="59" height="56"/>
+                                <rect key="frame" x="91" y="802" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Notifs" image="envelope" catalog="system"/>
+                                <state key="normal" title="Notifs" image="inbox_notification"/>
                                 <connections>
                                     <segue destination="Qid-i5-PZm" kind="show" id="nr9-gR-1Zs"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShD-Vb-Ax2">
-                                <rect key="frame" x="347" y="819" width="25" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Profile" image="person" catalog="system"/>
-                                <connections>
-                                    <segue destination="ujR-gN-Z06" kind="show" id="TIn-tt-9Df"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLU-Qp-T3o">
@@ -78,10 +70,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjh-Zw-Xoj">
-                                <rect key="frame" x="20" y="808" width="42" height="39"/>
+                                <rect key="frame" x="13" y="802" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="Feed" image="house" catalog="system"/>
+                                <state key="normal" title="Feed" image="logo"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShD-Vb-Ax2">
+                                <rect key="frame" x="345" y="802" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Profile" image="profile"/>
+                                <connections>
+                                    <segue destination="ujR-gN-Z06" kind="show" id="TIn-tt-9Df"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -262,10 +262,10 @@
     </scenes>
     <resources>
         <image name="circle" catalog="system" width="128" height="121"/>
-        <image name="ellipses.bubble" catalog="system" width="128" height="110"/>
-        <image name="envelope" catalog="system" width="128" height="93"/>
-        <image name="house" catalog="system" width="128" height="110"/>
-        <image name="pencil" catalog="system" width="128" height="113"/>
-        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="create post" width="500" height="500"/>
+        <image name="dm" width="500" height="500"/>
+        <image name="inbox_notification" width="500" height="500"/>
+        <image name="logo" width="500" height="500"/>
+        <image name="profile" width="500" height="500"/>
     </resources>
 </document>
