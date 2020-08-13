@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1819044324E4734700EE3407 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819044224E4734700EE3407 /* Default-568h@2x.png */; };
-		18ADA4DA24E3392900D9F59E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ADA4D824E3392900D9F59E /* Main.storyboard */; };
-		18ADA4DF24E3392D00D9F59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18ADA4DE24E3392D00D9F59E /* Assets.xcassets */; };
-		18ADA4E224E3392D00D9F59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ADA4E024E3392D00D9F59E /* LaunchScreen.storyboard */; };
+		1893A47D24E5A0CF0053B8D1 /* School_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1893A47B24E5A0CE0053B8D1 /* School_Connect.xcdatamodeld */; };
+		1893A47F24E5A2420053B8D1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18ADA4E324E3392D00D9F59E /* Info.plist */; };
+		1893A48024E5A2420053B8D1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18ADA4E324E3392D00D9F59E /* Info.plist */; };
+		1893A48124E5A2490053B8D1 /* School_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1893A47B24E5A0CE0053B8D1 /* School_Connect.xcdatamodeld */; };
+		1893A48224E5A2490053B8D1 /* School_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1893A47B24E5A0CE0053B8D1 /* School_Connect.xcdatamodeld */; };
+		1893A48524E5A3130053B8D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ADA4D824E3392900D9F59E /* Main.storyboard */; };
+		1893A48624E5A3140053B8D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ADA4D824E3392900D9F59E /* Main.storyboard */; };
+		1893A48824E5AB670053B8D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18ADA4DE24E3392D00D9F59E /* Assets.xcassets */; };
+		1893A48924E5AB6D0053B8D1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819044224E4734700EE3407 /* Default-568h@2x.png */; };
+		1893A48A24E5AB730053B8D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1893A48324E5A2600053B8D1 /* LaunchScreen.storyboard */; };
+		1893A48B24E5AB780053B8D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ADA4D824E3392900D9F59E /* Main.storyboard */; };
 		18ADA4ED24E3392D00D9F59E /* School_ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4EC24E3392D00D9F59E /* School_ConnectTests.swift */; };
 		18ADA4F824E3392D00D9F59E /* School_ConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4F724E3392D00D9F59E /* School_ConnectUITests.swift */; };
-		18C05E1424E4992100758D39 /* School_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4DB24E3392A00D9F59E /* School_Connect.xcdatamodeld */; };
-		18C05E1524E4993B00758D39 /* School_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4DB24E3392A00D9F59E /* School_Connect.xcdatamodeld */; };
-		18C05E1624E4993B00758D39 /* School_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4DB24E3392A00D9F59E /* School_Connect.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +41,15 @@
 
 /* Begin PBXFileReference section */
 		1819044224E4734700EE3407 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1893A47C24E5A0CF0053B8D1 /* School_Connect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = School_Connect.xcdatamodel; sourceTree = "<group>"; };
+		1893A48324E5A2600053B8D1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18ADA4CF24E3392900D9F59E /* Schools Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Schools Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ADA4D224E3392900D9F59E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18ADA4D424E3392900D9F59E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18ADA4D624E3392900D9F59E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18ADA4D924E3392900D9F59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18ADA4DC24E3392A00D9F59E /* School_Connect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = School_Connect.xcdatamodel; sourceTree = "<group>"; };
 		18ADA4DE24E3392D00D9F59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18ADA4E124E3392D00D9F59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18ADA4E324E3392D00D9F59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ADA4E324E3392D00D9F59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "School Connect/Info.plist"; sourceTree = SOURCE_ROOT; };
 		18ADA4E824E3392D00D9F59E /* School ConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "School ConnectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ADA4EC24E3392D00D9F59E /* School_ConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_ConnectTests.swift; sourceTree = "<group>"; };
 		18ADA4EE24E3392D00D9F59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,9 +112,9 @@
 				18ADA4D824E3392900D9F59E /* Main.storyboard */,
 				1819044224E4734700EE3407 /* Default-568h@2x.png */,
 				18ADA4DE24E3392D00D9F59E /* Assets.xcassets */,
-				18ADA4E024E3392D00D9F59E /* LaunchScreen.storyboard */,
 				18ADA4E324E3392D00D9F59E /* Info.plist */,
-				18ADA4DB24E3392A00D9F59E /* School_Connect.xcdatamodeld */,
+				1893A48324E5A2600053B8D1 /* LaunchScreen.storyboard */,
+				1893A47B24E5A0CE0053B8D1 /* School_Connect.xcdatamodeld */,
 			);
 			path = "School Connect";
 			sourceTree = "<group>";
@@ -237,10 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18ADA4E224E3392D00D9F59E /* LaunchScreen.storyboard in Resources */,
-				18ADA4DF24E3392D00D9F59E /* Assets.xcassets in Resources */,
-				1819044324E4734700EE3407 /* Default-568h@2x.png in Resources */,
-				18ADA4DA24E3392900D9F59E /* Main.storyboard in Resources */,
+				1893A48B24E5AB780053B8D1 /* Main.storyboard in Resources */,
+				1893A48A24E5AB730053B8D1 /* LaunchScreen.storyboard in Resources */,
+				1893A48924E5AB6D0053B8D1 /* Default-568h@2x.png in Resources */,
+				1893A48824E5AB670053B8D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1893A47F24E5A2420053B8D1 /* Info.plist in Resources */,
+				1893A48624E5A3140053B8D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +261,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1893A48024E5A2420053B8D1 /* Info.plist in Resources */,
+				1893A48524E5A3130053B8D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C05E1424E4992100758D39 /* School_Connect.xcdatamodeld in Sources */,
+				1893A47D24E5A0CF0053B8D1 /* School_Connect.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C05E1524E4993B00758D39 /* School_Connect.xcdatamodeld in Sources */,
+				1893A48124E5A2490053B8D1 /* School_Connect.xcdatamodeld in Sources */,
 				18ADA4ED24E3392D00D9F59E /* School_ConnectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C05E1624E4993B00758D39 /* School_Connect.xcdatamodeld in Sources */,
+				1893A48224E5A2490053B8D1 /* School_Connect.xcdatamodeld in Sources */,
 				18ADA4F824E3392D00D9F59E /* School_ConnectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,14 +317,6 @@
 				18ADA4D924E3392900D9F59E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18ADA4E024E3392D00D9F59E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18ADA4E124E3392D00D9F59E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -586,15 +586,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		18ADA4DB24E3392A00D9F59E /* School_Connect.xcdatamodeld */ = {
+		1893A47B24E5A0CE0053B8D1 /* School_Connect.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				18ADA4DC24E3392A00D9F59E /* School_Connect.xcdatamodel */,
+				1893A47C24E5A0CF0053B8D1 /* School_Connect.xcdatamodel */,
 			);
-			currentVersion = 18ADA4DC24E3392A00D9F59E /* School_Connect.xcdatamodel */;
+			currentVersion = 1893A47C24E5A0CF0053B8D1 /* School_Connect.xcdatamodel */;
 			path = School_Connect.xcdatamodeld;
 			sourceTree = "<group>";
-			usesTabs = 0;
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
