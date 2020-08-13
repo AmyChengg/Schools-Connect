@@ -8,15 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1819044324E4734700EE3407 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819044224E4734700EE3407 /* Default-568h@2x.png */; };
-		18ADA4D324E3392900D9F59E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4D224E3392900D9F59E /* AppDelegate.swift */; };
-		18ADA4D524E3392900D9F59E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4D424E3392900D9F59E /* SceneDelegate.swift */; };
-		18ADA4D724E3392900D9F59E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4D624E3392900D9F59E /* ViewController.swift */; };
 		18ADA4DA24E3392900D9F59E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ADA4D824E3392900D9F59E /* Main.storyboard */; };
-		18ADA4DD24E3392A00D9F59E /* School_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4DB24E3392A00D9F59E /* School_Connect.xcdatamodeld */; };
 		18ADA4DF24E3392D00D9F59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18ADA4DE24E3392D00D9F59E /* Assets.xcassets */; };
 		18ADA4E224E3392D00D9F59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ADA4E024E3392D00D9F59E /* LaunchScreen.storyboard */; };
 		18ADA4ED24E3392D00D9F59E /* School_ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4EC24E3392D00D9F59E /* School_ConnectTests.swift */; };
 		18ADA4F824E3392D00D9F59E /* School_ConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4F724E3392D00D9F59E /* School_ConnectUITests.swift */; };
+		18C05E1424E4992100758D39 /* School_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4DB24E3392A00D9F59E /* School_Connect.xcdatamodeld */; };
+		18C05E1524E4993B00758D39 /* School_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4DB24E3392A00D9F59E /* School_Connect.xcdatamodeld */; };
+		18C05E1624E4993B00758D39 /* School_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA4DB24E3392A00D9F59E /* School_Connect.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -266,10 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18ADA4DD24E3392A00D9F59E /* School_Connect.xcdatamodeld in Sources */,
-				18ADA4D724E3392900D9F59E /* ViewController.swift in Sources */,
-				18ADA4D324E3392900D9F59E /* AppDelegate.swift in Sources */,
-				18ADA4D524E3392900D9F59E /* SceneDelegate.swift in Sources */,
+				18C05E1424E4992100758D39 /* School_Connect.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C05E1524E4993B00758D39 /* School_Connect.xcdatamodeld in Sources */,
 				18ADA4ED24E3392D00D9F59E /* School_ConnectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C05E1624E4993B00758D39 /* School_Connect.xcdatamodeld in Sources */,
 				18ADA4F824E3392D00D9F59E /* School_ConnectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,7 +471,6 @@
 		18ADA50024E3392D00D9F59E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "School ConnectTests/Info.plist";
@@ -494,7 +491,6 @@
 		18ADA50124E3392D00D9F59E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "School ConnectTests/Info.plist";
@@ -515,7 +511,6 @@
 		18ADA50324E3392D00D9F59E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "School ConnectUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -534,7 +529,6 @@
 		18ADA50424E3392D00D9F59E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "School ConnectUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
